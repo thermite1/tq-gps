@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+
+body {
+    position: relative;
+    font-family: sans-serif;
+    overflow: hidden;
+    top: 15;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+  width: 50vh;
+  height: 118vh;
+  display:none;
+  margin-top: -6.32%;
+}
+
+.gps-container {
+  position: absolute;
+  bottom: -52vh;
+  right: 15vh;
+}
+
+.gps {
+  width: 18vh;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#submit {
+  position: absolute;
+  width: 3.80vh;
+  height: 0.5vh;
+  bottom: 5.1vh;
+  right: 10.35vh;
+  border-radius: 100px;
+  transition: all 0.1s linear;
+}
+
+#submit:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#disconnect {
+  position: absolute;
+  width: 3.80vh;
+  height: 0.5vh;
+  bottom: 5.1vh;
+  right: 4vh;
+  border-radius: 100px;
+  transition: all 0.1s linear;
+}
+
+#disconnect:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#gpskapatbutton {
+  position: absolute;
+  width: 1.5vh;
+  height: 1.5vh;
+  bottom: 21.25vh;
+  right: 4.7vh;
+  border-radius: 100px;
+  transition: all 0.1s linear;
+}
+
+#gpskapatbutton:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.channel {
+  position: absolute;
+  bottom: 11.25vh;
+  left: 4.25vh;
+  background: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.channel span {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.channel input {
+  text-align: center;
+  border: none;
+  font-size: 25px;
+  background: none;
+  outline: none;
+  font-family: 'Fira Code', monospace;
+  width: 5vw;
+   color: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-inner-spin-button {
+  display: none;
+}
